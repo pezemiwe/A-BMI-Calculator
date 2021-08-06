@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #C7D3D4FF;
+}
+.square{
+    height: 580px;
+    width: 300px;
+    background: hsl(255, 80%, 80%);
+    border-radius: 10px;
+    padding: 40px 40px;
+    border-left: 2px solid hsl(240, 100%, 25%);
+    border-right: 2px solid hsl(240, 100%, 25%);
+    overflow: scroll;
+    color: hsl(240, 100%, 11%);
+}
+.square::-webkit-scrollbar {
+    display: none;
+}
+.code {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+.calc {
+    text-align: center;
+    font-family: "Noto Sans";
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+.bodytext {
+
+}
+.details {
+    font-family: "Open Sans";
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: hsl(0, 0%, 100%);
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    font-family: "Noto Sans";
+    font-weight: 700;
+    font-size: 12px;
+    gap: 40px;
+}
+.yage {
+    height: 25px;
+    width: 90px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: none;
+    outline: none;
+}
+.calculate {
+    font-family: "Noto Sans";
+    font-size: 14px;
+    font-weight: 700;
+    background: hsl(0, 0%, 100%);
+    height: 30px;
+    text-align: center;
+    padding: 6px;
+    margin-top: 25px;
+    box-shadow: 0px 0px 5px 1px hsla(0, 0%, 0%, 0.3);
+}
+.calculate:hover {
+    cursor: pointer;
+}
+.calculate:active {
+    background: hsl(0, 0%, 58%);
+    color: hsl(0, 0%, 100%);
+}
+.your {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.bmi {
+    font-size: 50px;
+    font-family: "Noto Sans";
+    font-weight: 700;
+}
+.info {
+    font-family: "Open Sans";
+    font-size: 12px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+.note {
+    font-family: "Open Sans";
+    font-size: 10px;
+    color: hsl(0, 0%, 100%);
+    margin-top: 5px;
+}
+#info1 {
+    display: none;
+}
+#info2 {
+    display: none;
+}
+#info3 {
+    display: none;
+}
+#info4 {
+    display: none;
+}
+
+.parent.healthya #info1 {
+    display: block;
+
+}
+.parent.healthyb #info2 {
+    display: block;
+
+}
+.parent.healthyc #info3 {
+    display: block;
+
+}
+.parent.healthyd #info4 {
+    display: block;
+
+}
+input {
+    font-size: 15px;
+    font-family: "Noto Sans";
+    color: hsl(0, 0%, 100%);
+    /* font-weight: 700; */
+
+}
+select {
+    color: hsl(0, 0%, 100%);
+}
+.cm {
+    position: absolute;
+    content: "";
+    top: 0px;
+    right: 0;
+    color: hsl(0, 0%, 84%);
+    font-size: 15px;
+    font-family: "Noto Sans";
+}
+.kg {
+    position: absolute;
+    content: "";
+    top: 0px;
+    right: 0;
+    color: hsl(0, 0%, 84%);
+    font-size: 15px;
+}
+#input {
+    position: relative;
+}
+#yage {
+    position: relative;
+}
